@@ -3,7 +3,7 @@
 a, b = 0, 0
 sum_even = 0
 #while b is less than 4mil
-while b != 4000000:
+while b < 4000000:
     #if b is even
     if b % 2 == 0:
         #add b to sum even
