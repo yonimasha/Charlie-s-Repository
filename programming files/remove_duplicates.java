@@ -11,11 +11,11 @@ public class remove_duplicates {
      * Modifies: The list of removed elements
      * Returns: A new list that contains no duplicates
      */
-    public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
+    public static List<Integer> removeDuplicates(List<Integer> arr, List<> removedElements) {
         // Creates temporary array to ultimately be returned
         List<Integer> uniqueArr = new ArrayList<Integer>();
         // Iterates through given array, placing unique elements in uniqueArr and repeats in removedElements
-        for (int i == 0; i <= arr.size(); i++) {
+        for (int i = 0; i <= arr.size(); i++) {
             if (uniqueArr.contains(arr.get(i))) {
                 uniqueArr.add(arr.get(i));
             } else {
