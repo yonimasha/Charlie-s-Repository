@@ -1,4 +1,4 @@
-# Sean St. Clair broke this file
+# Bugs introduced: SS
 # initialize a, b, and sum of even numbers
 a, b = 0, 1
 sum_even = 0
