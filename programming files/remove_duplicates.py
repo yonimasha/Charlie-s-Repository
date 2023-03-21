@@ -5,10 +5,10 @@ def remove_duplicates(arr):
     removed_elements = []
     # Iterates through the array, adding unique elements to unique_arr and repeat elements to removed_elements
     for i in range(len(arr)):
-        if i == 0 or arr[i] != arr[i-1]:
-            unique_arr.append(arr[i])
+        if i != 0 or arr[i] == arr[i-1]:
+            unique_arr.append(arr[i-1])
         else:
-            removed_elements.append(arr[i])
+            removed_elements.append(arr[i-1])
     return unique_arr, removed_elements
 
 # Test the function
