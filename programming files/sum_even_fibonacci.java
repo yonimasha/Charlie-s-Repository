@@ -13,5 +13,5 @@ public class sum_even_fibonacci {
         System.out.println(sumEven);
     }
 }
-
+//looks good, maybe some more comments to add explaination. Took a second to figure it out. 
 // answer should be 4613732
