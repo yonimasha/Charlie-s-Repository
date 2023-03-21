@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// bugs introduced: YM
+
 public class remove_duplicates {
 
      /*
@@ -13,8 +15,8 @@ public class remove_duplicates {
         // Creates temporary array to ultimately be returned
         List<Integer> uniqueArr = new ArrayList<>();
         // Iterates through given array, placing unique elements in uniqueArr and repeats in removedElements
-        for (int i = 0; i < arr.size(); i++) {
-            if (!uniqueArr.contains(arr.get(i))) {
+        for (int i = 0; i <= arr.size(); i++) {
+            if (uniqueArr.contains(arr.get(i))) {
                 uniqueArr.add(arr.get(i));
             } else {
                 removedElements.add(arr.get(i));
