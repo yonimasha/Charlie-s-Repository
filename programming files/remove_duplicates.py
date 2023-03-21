@@ -1,3 +1,4 @@
+# bugs introduced: YM
 # This function removes duplicate elements from a given array
 def remove_duplicates(arr):
     arr.sort()
